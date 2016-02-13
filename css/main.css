@@ -1461,7 +1461,7 @@ body {
     }
 }
 body {
-    background-color: #2e3141;
+    background-color: #5f2078;
     background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
     background-size: auto, cover;
     background-attachment: fixed, fixed;
@@ -2469,7 +2469,7 @@ button:disabled,
     float: right;
     margin-left: 0.75em;
 }
-#header nav a[href="#menu"] {
+#header nav a[href="#login"] {
     text-decoration: none;
     -moz-transition: background-color 0.2s ease-in-out;
     -webkit-transition: background-color 0.2s ease-in-out;
@@ -2479,7 +2479,7 @@ button:disabled,
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
     padding: 0 1.35em;
 }
-#header nav a[href="#menu"]:before {
+#header nav a[href="#login"]:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-family: FontAwesome;
@@ -2487,13 +2487,13 @@ button:disabled,
     font-weight: normal;
     text-transform: none !important;
 }
-#header nav a[href="#menu"]:before {
+#header nav a[href="#login"]:before {
     content: '\f0c9';
 }
-#header nav a[href="#menu"]:hover {
+#header nav a[href="#login"]:hover {
     background-color: rgba(255, 255, 255, 0.025);
 }
-#header nav a[href="#menu"]:active {
+#header nav a[href="#login"]:active {
     background-color: rgba(255, 255, 255, 0.075);
 }
 #header.alt {
@@ -2518,24 +2518,24 @@ button:disabled,
         height: inherit;
         line-height: inherit;
     }
-    #header nav a[href="#menu"] {
+    #header nav a[href="#login"] {
         box-shadow: none;
         padding: 0 1em;
         border-radius: 0;
     }
-    #header nav a[href="#menu"]:hover,
-    #header nav a[href="#menu"]:active {
+    #header nav a[href="#login"]:hover,
+    #header nav a[href="#login"]:active {
         background-color: inherit;
     }
 }
 @media screen and (max-width: 640px) {
-    #header nav a[href="#menu"] {
+    #header nav a[href="#login"] {
         width: 4em;
         white-space: nowrap;
         text-indent: 4em;
         position: relative;
     }
-    #header nav a[href="#menu"]:before {
+    #header nav a[href="#login"]:before {
         width: inherit;
         position: absolute;
         top: 0;
@@ -2554,7 +2554,7 @@ button:disabled,
     -ms-transition: -ms-filter 0.25s ease;
     transition: filter 0.25s ease;
 }
-#menu {
+#login {
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -2591,7 +2591,7 @@ button:disabled,
     visibility: hidden;
     width: 100%;
 }
-#menu .inner {
+#login .inner {
     padding: 2.5em 1.5em 0.5em 1.5em;
     -moz-transform: translateY(0.5em);
     -webkit-transform: translateY(0.5em);
@@ -2610,11 +2610,11 @@ button:disabled,
     position: relative;
     width: 18em;
 }
-#menu h2 {
+#login h2 {
     border-bottom: solid 2px rgba(255, 255, 255, 0.125);
     padding-bottom: 1em;
 }
-#menu .close {
+#login .close {
     background-image: url("images/close.svg");
     background-position: 75% 25%;
     background-repeat: no-repeat;
@@ -2631,15 +2631,15 @@ button:disabled,
     top: 0;
     width: 4em;
 }
-#menu .links {
+#login .links {
     list-style: none;
     margin-bottom: 1.5em;
     padding: 0;
 }
-#menu .links li {
+#login .links li {
     padding: 0;
 }
-#menu .links li a {
+#login .links li a {
     border-radius: 5px;
     border: 0;
     display: block;
@@ -2651,16 +2651,16 @@ button:disabled,
     padding: 0.75em 0;
     text-transform: uppercase;
 }
-#menu .links li a:hover {
+#login .links li a:hover {
     background: #45558d;
 }
 @media screen and (max-width: 736px) {
-    #menu .inner {
+    #login .inner {
         max-height: 100%;
         overflow-y: auto;
         overflow-x: hidden;
     }
-    #menu .inner .close {
+    #login .inner .close {
         background-size: 1.5em 1.5em;
     }
 }
@@ -2670,7 +2670,7 @@ body.is-menu-visible #page-wrapper {
     -ms-filter: blur(1.5px);
     filter: blur(1.5px);
 }
-body.is-menu-visible #menu {
+body.is-menu-visible #login {
     -moz-pointer-events: auto;
     -webkit-pointer-events: auto;
     -ms-pointer-events: auto;
@@ -2678,7 +2678,7 @@ body.is-menu-visible #menu {
     opacity: 1;
     visibility: visible;
 }
-body.is-menu-visible #menu .inner {
+body.is-menu-visible #login .inner {
     -moz-transform: translateY(0);
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -2768,7 +2768,7 @@ body.is-menu-visible #menu .inner {
 @media screen and (max-width: 1280px) {
     #banner {
         padding: 7em 0 8.25em 0;
-        background-color: #2e3141;
+        background-color: #5f2078;
         background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
         background-size: auto, cover;
         background-position: center, center;
@@ -2857,7 +2857,7 @@ body.is-loading #banner p {
 @media screen and (max-width: 1280px) {
     #wrapper > header {
         padding: 9em 0 6.25em 0;
-        background-color: #2e3141;
+        background-color: #5f2078;
         background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
         background-size: auto, cover;
         background-position: center, 0% 30%;
@@ -2889,7 +2889,7 @@ body.is-loading #banner p {
     }
 }
 .wrapper {
-    background-color: #2e3141;
+    background-color: #5f2078;
     margin: 6.5em 0;
     position: relative;
 }
@@ -2972,11 +2972,11 @@ body.is-loading #banner p {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23555867;' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight {
-    background-color: #4c5c96;
+    background-color: #9c5ab6;
 }
 .wrapper.spotlight:before,
 .wrapper.spotlight:after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96;' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%239c5ab6;' /%3E%3C/svg%3E");
 }
 .wrapper.spotlight .inner {
     display: -moz-flex;
